@@ -1,0 +1,37 @@
+.container-app {
+  background-color: rgba(12, 18, 12, 0.9);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(24%, transparent), color-stop(25%, rgba(255, 255, 255, 0.05)), color-stop(26%, rgba(255, 255, 255, 0.05)), color-stop(27%, transparent), color-stop(74%, transparent), color-stop(75%, rgba(255, 255, 255, 0.05)), color-stop(76%, rgba(255, 255, 255, 0.05)), color-stop(77%, transparent), to(transparent)), -webkit-gradient(linear, left top, right top, color-stop(24%, transparent), color-stop(25%, rgba(255, 255, 255, 0.05)), color-stop(26%, rgba(255, 255, 255, 0.05)), color-stop(27%, transparent), color-stop(74%, transparent), color-stop(75%, rgba(255, 255, 255, 0.05)), color-stop(76%, rgba(255, 255, 255, 0.05)), color-stop(77%, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(bottom, transparent 24%, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.05) 75%, rgba(255, 255, 255, 0.05) 76%, transparent 77%, transparent), -webkit-linear-gradient(left, transparent 24%, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.05) 75%, rgba(255, 255, 255, 0.05) 76%, transparent 77%, transparent);
+  background-image: -o-linear-gradient(bottom, transparent 24%, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.05) 75%, rgba(255, 255, 255, 0.05) 76%, transparent 77%, transparent), -o-linear-gradient(left, transparent 24%, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.05) 75%, rgba(255, 255, 255, 0.05) 76%, transparent 77%, transparent);
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.05) 75%, rgba(255, 255, 255, 0.05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.05) 75%, rgba(255, 255, 255, 0.05) 76%, transparent 77%, transparent);
+  height: 100vh;
+  width: 100vw;
+  background-size: 40px 40px; }
+  .container-app svg {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -45%);
+    -ms-transform: translate(-50%, -45%);
+    transform: translate(-50%, -45%); }
+  .container-app .tooltip {
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    width: 180px;
+    height: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(111, 13, 222, 0.9); }
+    .container-app .tooltip p {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      line-height: 1em;
+      color: white; }
+
+.marker:hover {
+  cursor: pointer; }
